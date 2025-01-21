@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cataleg>
+    <llista_actors>
+        <actor id="A23">
+            <nom>Josefina</nom>
+            <edat>18</edat>
+        </actor>
+        <actor id="A24">
+            <nom>Messi</nom>
+        </actor>
+        <actor id="A25">
+            <nom>Hugo</nom>
+            <edat>18</edat>
+        </actor>
+    </llista_actors>
+    <llista_pelicules>
+        <pelicula id="P28">
+            <titol idioma="Espanyol">Padre no hay más que uno 3000, el retorno del cejas</titol>
+            <director>Santiago Segura Jr</director>
+            <any>2103</any>
+            <actors>
+                <actor_ref ref="A23"/>
+            </actors>
+        </pelicula>
+        <pelicula id="P29">
+            <titol idioma="Catala">Un chiqui ibai vine a veurem</titol>
+            <director>El dudu</director>
+            <any>2099</any>
+            <actors>
+                <actor_ref ref="A24"/>
+            </actors>
+        </pelicula>
+        <pelicula id="P30">
+            <titol idioma="Angles">A summer with Hugo Murillo in Germany: Love history</titol>
+            <director>Eric Parada </director>
+            <any>2025</any>
+            <actors>
+                <actor_ref ref="A25"/>
+                <actor_ref ref="A23"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+    <llista_recomanacions_pelicules>
+        <recomenacio ref="P29"/>
+    </llista_recomanacions_pelicules>
+</cataleg>
