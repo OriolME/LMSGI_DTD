@@ -31,7 +31,7 @@
             </actors>
         </pelicula>
         <pelicula id="P30">
-            <titol idioma="Angles">A summer with Hugo Murillo in Germany: Love history</titol>
+            <titol idioma="Angles">A summer with Hugo Murillo in Germany: A love history</titol>
             <director>Eric Parada </director>
             <any>2025</any>
             <actors>
@@ -41,6 +41,8 @@
         </pelicula>
     </llista_pelicules>
     <llista_recomanacions_pelicules>
+        <recomenacio ref="P28"/>
         <recomenacio ref="P29"/>
+        <recomenacio ref="P30"/>
     </llista_recomanacions_pelicules>
 </cataleg>
